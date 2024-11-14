@@ -1,0 +1,48 @@
+CREATE TABLE Books (
+    BookId INT AUTO_INCREMENT PRIMARY KEY,
+    BookTitle VARCHAR(100) NOT NULL,
+    Author VARCHAR(50) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    PublishDate DATETIME NOT NULL
+);
+
+
+INSERT INTO Books (BookTitle, Author, Price, PublishDate) VALUES
+('The Great Gatsby', 'F. Scott Fitzgerald', 15.99, '1925-04-10'),
+('To Kill a Mockingbird', 'Harper Lee', 10.49, '1960-07-11'),
+('1984', 'George Orwell', 9.99, '1949-06-08'),
+('Pride and Prejudice', 'Jane Austen', 7.99, '1813-01-28'),
+('The Catcher in the Rye', 'J.D. Salinger', 12.99, '1951-07-16'),
+('The Hobbit', 'J.R.R. Tolkien', 8.99, '1937-09-21'),
+('The Lord of the Rings', 'J.R.R. Tolkien', 20.99, '1954-07-29'),
+('Harry Potter and the Sorcerer''s Stone', 'J.K. Rowling', 12.99, '1997-06-26'),
+('Harry Potter and the Chamber of Secrets', 'J.K. Rowling', 13.99, '1998-07-02'),
+('Harry Potter and the Prisoner of Azkaban', 'J.K. Rowling', 14.99, '1999-07-08'),
+('Moby-Dick', 'Herman Melville', 11.99, '1851-11-14'),
+('War and Peace', 'Leo Tolstoy', 19.99, '1869-01-01'),
+('Crime and Punishment', 'Fyodor Dostoevsky', 10.49, '1866-01-01'),
+('The Odyssey', 'Homer', 9.49, '800-01-01'),
+('The Iliad', 'Homer', 8.99, '750-01-01'),
+('Brave New World', 'Aldous Huxley', 12.49, '1932-01-01'),
+('Jane Eyre', 'Charlotte Bronte', 8.99, '1847-10-16'),
+('The Count of Monte Cristo', 'Alexandre Dumas', 15.49, '1844-01-01'),
+('Great Expectations', 'Charles Dickens', 9.99, '1861-01-01'),
+('Les Misérables', 'Victor Hugo', 14.99, '1862-01-01'),
+('Anna Karenina', 'Leo Tolstoy', 13.99, '1877-01-01'),
+('The Adventures of Huckleberry Finn', 'Mark Twain', 7.99, '1884-12-10'),
+('Alice''s Adventures in Wonderland', 'Lewis Carroll', 6.99, '1865-11-26'),
+('Frankenstein', 'Mary Shelley', 8.49, '1818-01-01'),
+('Dracula', 'Bram Stoker', 8.99, '1897-05-26'),
+('The Divine Comedy', 'Dante Alighieri', 17.99, '1320-01-01'),
+('Paradise Lost', 'John Milton', 9.99, '1667-01-01'),
+('The Scarlet Letter', 'Nathaniel Hawthorne', 7.99, '1850-03-16'),
+('Wuthering Heights', 'Emily Bronte', 10.99, '1847-12-17'),
+('The Picture of Dorian Gray', 'Oscar Wilde', 8.99, '1890-06-20'),
+('Don Quixote', 'Miguel de Cervantes', 11.99, '1605-01-01'),
+('The Brothers Karamazov', 'Fyodor Dostoevsky', 13.49, '1880-01-01'),
+('The Grapes of Wrath', 'John Steinbeck', 10.49, '1939-04-14'),
+('Lolita', 'Vladimir Nabokov', 12.99, '1955-09-17'),
+('Catch-22', 'Joseph Heller', 9.99, '1961-11-10'),
+('The Sun Also Rises', 'Ernest Hemingway', 8.99, '1926-10-22'),
+('The Sound and the Fury', 'William Faulkner', 11.49, '1929-10-07')
+
